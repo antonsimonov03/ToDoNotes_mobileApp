@@ -31,5 +31,21 @@ export default StyleSheet.create({
     marginBottom: 10,
     borderBottomColor: "rgb(199, 199, 199)",
     borderBottomWidth: 1
+  },
+  linkItemWrapper: {
+    flexDirection: "row",
+    alignItems: "center"
+  },
+  linkItemIconWrapper: {
+    width: 30,
+    marginRight: 10
+  },
+  linkItemIcon: {
+    textAlign: "center",
+    fontSize: 20,
+    color: "#adadad"
+  },
+  linkItemText: {
+    fontSize: 20
   }
 });

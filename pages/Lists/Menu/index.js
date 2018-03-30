@@ -61,19 +61,12 @@ class Menu extends Component {
           underlayColor="rgb(245, 240, 244)"
           activeOpacity={0.9}
         >
-          <Text
-            style={{
-              fontSize: 20
-            }}
-          >
-            <View style={{ width: 30, marginRight: 10 }}>
-              <Icon
-                style={{ textAlign: "center", fontSize: 20, color: "#adadad" }}
-                name={icon}
-              />
+          <View style={styles.linkItemWrapper}>
+            <View style={styles.linkItemIconWrapper}>
+              <Icon style={styles.linkItemIcon} name={icon} />
             </View>
-            {name}
-          </Text>
+            <Text style={styles.linkItemText}>{name}</Text>
+          </View>
         </TouchableHighlight>
       </View>
     ));
